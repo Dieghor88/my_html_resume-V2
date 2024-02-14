@@ -1,0 +1,331 @@
+body, html {
+    background-color: #FFF3E1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.page_marker {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+}
+
+#the_marker {
+    width: 25px;
+    height: 800px;
+    background-color:rgb(71, 71, 71);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 2px 2px 2px 3px rgb(184, 184, 184);
+}
+
+.header {
+    position: relative;
+    margin-right: 20px;
+    margin-top: 30px;    
+}
+
+#introduction_h2 {
+    font-family: 'Acme', sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    letter-spacing: 11px;
+    color: #6D6E71;
+}
+
+#full_name {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 80px;
+    letter-spacing: 13.7px;
+    color: #58595B;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#professions_h3 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: #E5283F;
+}
+
+#email_h3 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    letter-spacing: 4.3px;
+}
+
+#number {
+    position:relative;
+    margin-left: 330px;
+    margin-top: -44px;
+    font-family: 'Fira Sans', sans-serif;
+    letter-spacing: 4.8px;
+    color: #6D6E71;
+}
+
+#avatar {
+    width: 170px;
+    height: 225px;
+    border: 12px solid white;
+    box-shadow: 5px 5px 5px 3px rgb(184, 184, 184);
+    transform: rotate(5deg);
+    position: relative;
+    margin-left: 600px;
+    margin-top: -240px;
+}
+
+#clip {
+    width: 50px;
+    height: 100px;
+    position: absolute;
+    margin-left: -45px;
+    margin-top: -65px;
+    transform: rotate(5deg);
+}
+
+hr {
+    border: 2px solid;
+    border-radius: 2px;
+    border-color: #58595B;
+    width: 550px;
+    margin-left: 0px;
+    margin-right: 0px;
+    opacity: 70%;
+    filter: blur(0.5px);
+}
+
+.edu_block {
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.education_title {
+    display: flex;
+    align-items: center;
+    margin-top: -25px;
+}
+
+.edu_icon {
+    font-size: 65px;
+    color: #58595B;
+    margin-right: 15px;
+}
+
+.education_h3 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 38px;
+    letter-spacing: 7px;
+    color: #E5283F;
+}
+
+.education_list {
+    width: 330px;
+    margin-top: -25px;
+    font-family: "Trebuchet MS", regular;
+    font-size: 16px;
+    color: #6D6E71;
+}
+
+.skills_block {
+    width: 250px;
+}
+
+.skill_box {
+    font-family: "Trebuchet MS", regular;
+    font-size: 16px;
+    color: #58595B;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: 4px solid;
+    font-weight: bold;
+}
+.skill_title {
+    display: flex;
+    align-items: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 38px;
+    letter-spacing: 7px;
+    font-weight: bold;
+    color: #E5283F;
+    text-align: center;
+    border: 4px solid;
+    border-radius: 40px;
+    padding:3px 5px;
+    padding-right: 13px;
+    border-color: #58595B;
+    }
+
+.skill_apps {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 15px 15px;
+    margin-top: -10px;
+}
+
+.skill_photoshop {
+    display: flex;
+    align-items: center;
+}
+
+.ps_icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.skill_illustrator {
+    display: flex;
+    align-items: center;
+}
+
+.ai_icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.skill_indesign {
+    display: flex;
+    align-items: center;
+}
+
+.id_icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.skill_lang {
+    font-size: 15px;
+    font-weight: bold;
+    margin: 15px 15px;
+    margin-top: -10px;
+}
+
+.skill_icon {
+    font-size: 60px;
+    color: #58595B;
+    margin-right: 10px;
+}
+
+.hr_skills {
+    width: 330px;
+    border-color: #58595B;
+}
+
+.skill_portuguese {
+    display: flex;
+    align-items: center;
+}
+
+.br_icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.skill_english {
+    display: flex;
+    align-items: center;
+}
+
+.uk_icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.skill_chinese {
+    display: flex;
+    align-items: center;
+}
+
+.cn_icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.my_arts_div {
+    margin-top: -10px;
+}
+
+.behance_div {
+    display: flex;
+    align-items: center;
+}
+
+.be_icon {
+    width: 30px;
+    height: 30px;
+    margin-left: 16px;
+}
+
+.deviant_div {
+    display: flex;
+    align-items: center;
+}
+
+.da_icon {
+    width: 30px;
+    height: 30px;
+    margin-left: 16px;
+}
+
+.xp_block {
+    width: 300px;
+    margin-left: 400px;
+    margin-top: -997px;
+}
+
+.work_icon {
+    font-size: 60px;
+    color: #58595B;
+    margin-right: 15px;
+    margin-top: -10px;
+}
+
+.xp_title {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.xp_list {
+    width: 380px;
+    margin-top: -25px;
+    font-family: "Trebuchet MS", regular;
+    font-size: 16px;
+    color: #6D6E71;
+}
+
+#coffee_stain {
+    position: absolute;
+    z-index: -1;
+    pointer-events: none;
+    opacity: 0.5;
+    width: 330px;
+    height: 300px;
+    margin-left: 460px;
+    margin-top: -180px;
+}
+
+#chinese_stamp {
+    position: absolute;
+    z-index: -1;
+    pointer-events: none;
+    width: 100px;
+    height: 100px;
+    margin-left: 680px;
+    margin-top: 20px;
+}
+
+.my_resume {
+    max-width: 800px;
+    display: inline-block;
+}
